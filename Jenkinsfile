@@ -13,9 +13,23 @@ if (params.mbed_os_revision == '') {
 
 // List of targets with supported RF shields to compile
 def targets = [
-  "UBLOX_EVK_ODIN_W2",
+  "DISCO_F746NG",
+  "DISCO_F769NI",
   "K64F",
-  "NUCLEO_F429ZI"
+  "K66F",
+  "MBED_CONNECT_ODIN",
+  "MCU_LPC546XX",
+  "MTB_UBLOX_ODIN_W2",
+  "NUCLEO_F207ZG",
+  "NUCLEO_F429ZI",
+  "NUCLEO_F439ZI",
+  "NUCLEO_F746ZG",
+  "NUCLEO_F756ZG",
+  "NUCLEO_F767ZI",
+  "NUMAKER_PFM_M487",
+  "NUMAKER_PFM_NUC472",
+  "UBLOX_C030_U201",
+  "UBLOX_EVK_ODIN_W2"
   ]
 
 // Map toolchains to compilers
